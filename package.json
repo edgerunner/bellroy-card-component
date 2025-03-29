@@ -1,0 +1,14 @@
+{
+  "name": "bellroy-card-component",
+  "version": "0.1.0",
+  "description": "Take-home assignment for the Frontend Developer role at Bellroy",
+  "main": "index.html",
+  "author": "Mert Torun <mert@merttorun.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "elm": "^0.19.1-6",
+    "elm-test": "^0.19.1-revision15",
+    "vite": "^6.2.3",
+    "vite-plugin-elm": "^3.0.1"
+  }
+}
