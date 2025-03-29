@@ -31,7 +31,9 @@ const flags = {
   },
 };
 
-Elm.Card.init({
-  node: document.getElementById("sample"),
-  flags,
-});
+["sample-1", "sample-2", "sample-3", "sample-4"].forEach((id) =>
+  Elm.Card.init({
+    node: document.getElementById(id),
+    flags,
+  }),
+);
