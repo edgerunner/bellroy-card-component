@@ -27,11 +27,19 @@ type Model
 type alias ModelRecord =
     { name : String
     , description : String
+    , price : Price
     , show : Show
     , colors : ZipList Color
     , href : String
     , bestseller : Bool
     , language : Language
+    }
+
+
+type alias Price =
+    { amount : String
+    , prefix : String
+    , suffix : String
     }
 
 
@@ -74,12 +82,21 @@ decoder =
     Decode.succeed ModelRecord
         |> Pipeline.required "name" Decode.string
         |> Pipeline.required "description" Decode.string
+        |> Pipeline.required "price" priceDecoder
         |> Pipeline.hardcoded Outside
         |> Pipeline.required "colors" colorListDecoder
         |> Pipeline.required "href" Decode.string
         |> Pipeline.required "bestseller" Decode.bool
         |> Pipeline.required "language" languageDecoder
         |> Decode.map Model
+
+
+priceDecoder : Decoder Price
+priceDecoder =
+    Decode.succeed Price
+        |> Pipeline.required "amount" Decode.string
+        |> Pipeline.optional "prefix" Decode.string ""
+        |> Pipeline.optional "suffix" Decode.string ""
 
 
 languageDecoder : Decoder Language
@@ -164,8 +181,18 @@ modelView model =
     Html.article [ Attr.class "card" ]
         [ cardImage model.language model.show (ZipList.current model.colors)
         , Html.h1 [] [ Html.text model.name ]
+        , price model.price
         , colorSelector model.colors
         , Html.h5 [] [ Html.text model.description ]
+        ]
+
+
+price : Price -> Html msg
+price p =
+    Html.h5 []
+        [ Html.text p.prefix
+        , Html.em [] [ Html.text p.amount ]
+        , Html.text p.suffix
         ]
 
 

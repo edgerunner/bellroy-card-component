@@ -3,6 +3,10 @@ import { Elm } from "./Card.elm";
 const flags = {
   name: "Card Title",
   description: "Card Content",
+  price: {
+    prefix: "$",
+    amount: "12.50",
+  },
   colors: [
     {
       code: "red",
