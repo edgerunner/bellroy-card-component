@@ -5,6 +5,7 @@ import Html exposing (Html)
 import Html.Attributes as Attr
 import Html.Events as Event
 import Json.Decode as Decode exposing (Decoder)
+import Json.Decode.Pipeline as Pipeline
 import ZipList exposing (ZipList)
 
 
@@ -89,24 +90,24 @@ default =
 
 decoder : Decoder Model
 decoder =
-    Decode.map7 ModelRecord
-        (Decode.field "name" Decode.string)
-        (Decode.field "description" Decode.string)
-        (Decode.succeed False)
-        (Decode.field "colors" colorListDecoder)
-        (Decode.field "href" Decode.string)
-        (Decode.field "bestseller" Decode.bool)
-        (Decode.field "language" languageDecoder)
+    Decode.succeed ModelRecord
+        |> Pipeline.required "name" Decode.string
+        |> Pipeline.required "description" Decode.string
+        |> Pipeline.hardcoded False
+        |> Pipeline.required "colors" colorListDecoder
+        |> Pipeline.required "href" Decode.string
+        |> Pipeline.required "bestseller" Decode.bool
+        |> Pipeline.required "language" languageDecoder
         |> Decode.map Model
 
 
 languageDecoder : Decoder Language
 languageDecoder =
-    Decode.map4 Language
-        (Decode.field "code" Decode.string)
-        (Decode.field "bestseller" Decode.string)
-        (Decode.field "showInside" Decode.string)
-        (Decode.field "close" Decode.string)
+    Decode.succeed Language
+        |> Pipeline.required "code" Decode.string
+        |> Pipeline.required "bestseller" Decode.string
+        |> Pipeline.required "showInside" Decode.string
+        |> Pipeline.required "close" Decode.string
 
 
 colorListDecoder : Decoder (ZipList Color)
@@ -121,11 +122,11 @@ colorListDecoder =
 
 colorDecoder : Decoder Color
 colorDecoder =
-    Decode.map4 Color
-        (Decode.field "code" Decode.string)
-        (Decode.field "name" Decode.string)
-        (Decode.field "outsideImage" Decode.string)
-        (Decode.field "insideImage" Decode.string)
+    Decode.succeed Color
+        |> Pipeline.required "code" Decode.string
+        |> Pipeline.required "name" Decode.string
+        |> Pipeline.required "outsideImage" Decode.string
+        |> Pipeline.required "insideImage" Decode.string
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
