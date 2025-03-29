@@ -86,7 +86,7 @@ decoder =
         |> Pipeline.hardcoded Outside
         |> Pipeline.required "colors" colorListDecoder
         |> Pipeline.required "href" Decode.string
-        |> Pipeline.required "bestseller" Decode.bool
+        |> Pipeline.optional "bestseller" Decode.bool False
         |> Pipeline.required "language" languageDecoder
         |> Decode.map Model
 
@@ -180,11 +180,22 @@ modelView : ModelRecord -> Html Msg
 modelView model =
     Html.article [ Attr.class "card" ]
         [ cardImage model.language model.show (ZipList.current model.colors)
+        , Html.aside [ Attr.class "bestseller" ] [ Html.text model.language.bestseller ]
+            |> when model.bestseller
         , Html.h1 [] [ Html.text model.name ]
         , price model.price
         , colorSelector model.colors
         , Html.h5 [] [ Html.text model.description ]
         ]
+
+
+when : Bool -> Html msg -> Html msg
+when condition html =
+    if condition then
+        html
+
+    else
+        Html.text ""
 
 
 price : Price -> Html msg
