@@ -31,9 +31,7 @@ const flags = {
   },
 };
 
-console.log(Elm);
-
-var app = Elm.Card.init({
+Elm.Card.init({
   node: document.getElementById("sample"),
   flags,
 });
