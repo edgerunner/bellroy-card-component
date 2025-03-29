@@ -27,12 +27,17 @@ type Model
 type alias ModelRecord =
     { name : String
     , description : String
-    , showInside : Bool
+    , show : Show
     , colors : ZipList Color
     , href : String
     , bestseller : Bool
     , language : Language
     }
+
+
+type Show
+    = Inside
+    | Outside
 
 
 type Msg
@@ -64,36 +69,12 @@ init =
         >> (\model -> ( model, Cmd.none ))
 
 
-default : Model
-default =
-    Model
-        { name = "Card Title"
-        , description = "Card Content"
-        , showInside = False
-        , colors =
-            ZipList.singleton
-                { code = "red"
-                , name = "Red"
-                , outsideImage = "red-outside.png"
-                , insideImage = "red-inside.png"
-                }
-        , href = ""
-        , bestseller = False
-        , language =
-            { code = "en"
-            , bestseller = "Bestseller"
-            , showInside = "Show Inside"
-            , close = "Close"
-            }
-        }
-
-
 decoder : Decoder Model
 decoder =
     Decode.succeed ModelRecord
         |> Pipeline.required "name" Decode.string
         |> Pipeline.required "description" Decode.string
-        |> Pipeline.hardcoded False
+        |> Pipeline.hardcoded Outside
         |> Pipeline.required "colors" colorListDecoder
         |> Pipeline.required "href" Decode.string
         |> Pipeline.required "bestseller" Decode.bool
@@ -138,7 +119,7 @@ update msg model =
         Model modelRecord ->
             case msg of
                 ToggleInside ->
-                    ( Model { modelRecord | showInside = not modelRecord.showInside }
+                    ( Model { modelRecord | show = flipShow modelRecord.show }
                     , Cmd.none
                     )
 
@@ -151,6 +132,16 @@ update msg model =
                         }
                     , Cmd.none
                     )
+
+
+flipShow : Show -> Show
+flipShow show =
+    case show of
+        Inside ->
+            Outside
+
+        Outside ->
+            Inside
 
 
 subscriptions : Model -> Sub Msg
@@ -171,7 +162,7 @@ view model =
 modelView : ModelRecord -> Html Msg
 modelView model =
     Html.article [ Attr.class "card" ]
-        [ cardImage model.language model.showInside (ZipList.current model.colors)
+        [ cardImage model.language model.show (ZipList.current model.colors)
         , Html.h1 [] [ Html.text model.name ]
         , colorSelector model.colors
         , Html.h5 [] [ Html.text model.description ]
@@ -198,22 +189,23 @@ colorButton index selected color =
         []
 
 
-cardImage : Language -> Bool -> Color -> Html Msg
-cardImage language showInside color =
-    Html.figure [ Attr.class <| outsideOrInside showInside "outside" "inside" ]
+cardImage : Language -> Show -> Color -> Html Msg
+cardImage language show color =
+    Html.figure [ Attr.class <| outsideOrInside show "outside" "inside" ]
         [ Html.button [ Event.onClick ToggleInside ]
-            [ Html.text <| outsideOrInside showInside language.showInside language.close ]
-        , Html.img [ Attr.src <| outsideOrInside showInside color.outsideImage color.insideImage ] []
+            [ Html.text <| outsideOrInside show language.showInside language.close ]
+        , Html.img [ Attr.src <| outsideOrInside show color.outsideImage color.insideImage ] []
         ]
 
 
-outsideOrInside : Bool -> a -> a -> a
-outsideOrInside showInside outside inside =
-    if showInside then
-        inside
+outsideOrInside : Show -> a -> a -> a
+outsideOrInside show outside inside =
+    case show of
+        Outside ->
+            outside
 
-    else
-        outside
+        Inside ->
+            inside
 
 
 errorView : Html msg
