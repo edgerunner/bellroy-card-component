@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.2em;
+}
+
+article.card {
+    container-type: inline-size;
+    container-name: card;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.5em;
+    padding: 1em;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+
+    h1,
+    h5,
+    form {
+        font-size: 0.8em;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    figure {
+        flex-grow: 1;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+
+        button {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    form {
+        display: flex;
+        gap: 0.25em;
+        input {
+            appearance: none;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: white;
+            box-sizing: border-box;
+            width: 1.4em;
+            height: 1.4em;
+            margin: 0;
+        }
+        input:checked {
+            outline: white solid 2px;
+            outline-offset: -3px;
+        }
+        input[value="bronze"] {
+            background-color: #b45628;
+        }
+        input[value="nightsky"] {
+            background-color: #212e41;
+        }
+    }
+}

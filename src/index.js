@@ -1,24 +1,28 @@
 import { Elm } from "./Card.elm";
 
 const flags = {
-  name: "Card Title",
-  description: "Card Content",
+  name: "Transit Workpack 20L",
+  description: "20L, 16” laptop / A versatile backpack for work",
   price: {
     prefix: "$",
-    amount: "12.50",
+    amount: "179",
   },
   colors: [
     {
-      code: "red",
-      name: "Red",
-      outsideImage: "red-outside.png",
-      insideImage: "red-inside.png",
+      code: "bronze",
+      name: "Bronze",
+      outsideImage:
+        "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-BRZ-213/0?auto=format&fit=max&w=320",
+      insideImage:
+        "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-BRZ-213/0?auto=format&fit=max&w=320",
     },
     {
-      code: "blue",
-      name: "Blue",
-      outsideImage: "blue-outside.png",
-      insideImage: "blue-inside.png",
+      code: "nightsky",
+      name: "Night Sky",
+      outsideImage:
+        "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-NSK-213/0?auto=format&fit=max&w=320",
+      insideImage:
+        "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-NSK-213/0?auto=format&fit=max&w=320",
     },
   ],
   href: "/products/product-page.html",
