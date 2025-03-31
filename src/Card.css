@@ -43,8 +43,32 @@ article.card {
 
         label {
             position: absolute;
+            display: flex;
             right: 0;
             top: 0;
+            color: #333333;
+            background-color: #dbdbdb;
+            height: 1.4em;
+            padding: 0.15em 0.35em;
+            gap: 0.35em;
+            text-transform: uppercase;
+            font-size: 0.8em;
+
+            align-items: center;
+
+            input {
+                appearance: none;
+                display: block;
+                width: 0.8em;
+                height: 0.8em;
+                content: "";
+                background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8' ><path stroke='%23333' d='M4 0 4 8 M0 4 8 4'/></svg>");
+                background-size: contain;
+                transition: rotate 300ms ease;
+                &:checked {
+                    rotate: 45deg;
+                }
+            }
         }
     }
 
