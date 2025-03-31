@@ -20,6 +20,12 @@ article.card {
     background-color: #f7f7f7;
     border-radius: 4px;
 
+    & > a {
+        all: unset;
+        cursor: pointer;
+        display: contents;
+    }
+
     h1,
     h5,
     form {
@@ -35,7 +41,7 @@ article.card {
         display: flex;
         flex-direction: column;
 
-        button {
+        label {
             position: absolute;
             right: 0;
             top: 0;

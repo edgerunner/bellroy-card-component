@@ -178,7 +178,7 @@ view model =
 
 modelView : ModelRecord -> Html Msg
 modelView model =
-    Html.article [ Attr.class "card" ]
+    Html.a [ Attr.href model.href ]
         [ cardImage model.language model.show (ZipList.current model.colors)
         , Html.aside [ Attr.class "bestseller" ] [ Html.text model.language.bestseller ]
             |> when model.bestseller
@@ -187,6 +187,8 @@ modelView model =
         , colorSelector model.colors
         , Html.h5 [] [ Html.text model.description ]
         ]
+        |> List.singleton
+        |> Html.article [ Attr.class "card" ]
 
 
 when : Bool -> Html msg -> Html msg
@@ -230,8 +232,10 @@ colorButton index selected color =
 cardImage : Language -> Show -> Color -> Html Msg
 cardImage language show color =
     Html.figure [ Attr.class <| outsideOrInside show "outside" "inside" ]
-        [ Html.button [ Event.onClick ToggleInside ]
-            [ Html.text <| outsideOrInside show language.showInside language.close ]
+        [ Html.label []
+            [ Html.text <| outsideOrInside show language.showInside language.close
+            , Html.input [ Attr.type_ "checkbox", Attr.checked (show == Inside), Event.onClick ToggleInside ] []
+            ]
         , Html.img [ Attr.src <| outsideOrInside show color.outsideImage color.insideImage ] []
         ]
 
