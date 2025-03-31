@@ -44,6 +44,11 @@ article.card {
         label {
             position: absolute;
             display: flex;
+            @media (hover: hover) {
+                article.card:not(:hover) & {
+                    display: none;
+                }
+            }
             right: 0;
             top: 0;
             color: #333333;
