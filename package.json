@@ -7,8 +7,16 @@
   "license": "MIT",
   "devDependencies": {
     "elm": "^0.19.1-6",
-    "elm-test": "^0.19.1-revision15",
-    "vite": "^6.2.3",
-    "vite-plugin-elm": "^3.0.1"
+    "elm-test": "^0.19.1-revision15"
+  },
+  "dependencies": {
+    "astro": "^5.5.6",
+    "astro-integration-elm": "^0.0.10"
+  },
+  "scripts": {
+    "test": "elm-test",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   }
 }
