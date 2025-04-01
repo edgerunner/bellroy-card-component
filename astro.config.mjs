@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
-import elm from "astro-integration-elm";
+import elmstronaut from "elmstronaut";
 
 export default defineConfig({
-  integrations: [elm()],
+  integrations: [elmstronaut()],
 });

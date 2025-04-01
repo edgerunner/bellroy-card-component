@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "astro": "^5.5.6",
-    "astro-integration-elm": "^0.0.10"
+    "elmstronaut": "^0.1.1"
   },
   "scripts": {
     "test": "elm-test",
