@@ -188,7 +188,7 @@ modelView model =
         , Html.h5 [] [ Html.text model.description ]
         ]
         |> List.singleton
-        |> Html.article [ Attr.class "card" ]
+        |> Html.node "elm-card" []
 
 
 when : Bool -> Html msg -> Html msg

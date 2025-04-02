@@ -1,14 +1,4 @@
-body {
-    font-family: sans-serif;
-}
-
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.2em;
-}
-
-article.card {
+elm-card {
     container-type: inline-size;
     container-name: card;
     position: relative;
@@ -45,7 +35,7 @@ article.card {
             position: absolute;
             display: flex;
             @media (hover: hover) {
-                article.card:not(:hover) & {
+                elm-card:not(:hover) & {
                     display: none;
                 }
             }

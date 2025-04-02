@@ -1,9 +1,11 @@
 ---
+import { AstroJSX } from "astro/jsx-runtime";
 import Card from "../elm/Card.elm";
+import "../Card.css";
 
 const flags = {
     name: "Transit Workpack 20L",
-    description: "20L, 16” laptop / A versatile backpack for work",
+    description: '20L, 16" laptop / A versatile backpack for work',
     price: {
         prefix: "$",
         amount: "179",
@@ -38,7 +40,24 @@ const flags = {
 ---
 
 <html>
-    <body>
-        <Card client:load {...flags} />
+    <body
+        ><main>
+            <Card client:load {...flags} />
+            <Card client:load {...flags} />
+            <Card client:load {...flags} />
+            <Card client:load {...flags} />
+        </main>
     </body>
 </html>
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.2em;
+    }
+</style>
