@@ -202,7 +202,7 @@ when condition html =
 
 price : Price -> Html msg
 price p =
-    Html.h5 []
+    Html.h4 []
         [ Html.text p.prefix
         , Html.em [] [ Html.text p.amount ]
         , Html.text p.suffix
