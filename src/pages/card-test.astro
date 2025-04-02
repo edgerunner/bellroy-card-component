@@ -1,9 +1,8 @@
 ---
 // @ts-ignore-line
-import Card from "../elm/Card.elm";
-import "../Card.css";
+import Card from "../components/Card.astro";
 
-const flags = {
+const props = {
     name: "Transit Workpack 20L",
     description: '20L, 16" laptop / A versatile backpack for work',
     price: {
@@ -30,22 +29,16 @@ const flags = {
     ],
     href: "/products/product-page.html",
     bestseller: false,
-    language: {
-        code: "en",
-        bestseller: "Bestseller",
-        showInside: "Show Inside",
-        close: "Close",
-    },
 };
 ---
 
 <html>
-    <body
-        ><main>
-            <Card client:load {...flags} />
-            <Card client:load {...flags} />
-            <Card client:load {...flags} />
-            <Card client:load {...flags} />
+    <body>
+        <main>
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
         </main>
     </body>
 </html>

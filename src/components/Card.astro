@@ -1,0 +1,15 @@
+---
+// @ts-ignore-line
+import Card from "../elm/Card.elm";
+import "./Card.css";
+
+// TODO: Replace with proper i18n setup later
+const language = {
+    code: "en",
+    bestseller: "Bestseller",
+    showInside: "Show Inside",
+    close: "Close",
+};
+---
+
+<Card client:load language={language} {...Astro.props} />
