@@ -222,4 +222,15 @@ elm-card {
             background-color: #736d50;
         }
     }
+
+    aside.bestseller {
+        background: white;
+        color: #af4434;
+        font-size: 0.8em;
+        padding: 0.2em 0.4em;
+        box-sizing: border-box;
+        width: fit-content;
+        border-radius: 4px;
+        margin-top: -2em;
+    }
 }
