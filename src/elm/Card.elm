@@ -178,7 +178,7 @@ view model =
 
 modelView : ModelRecord -> Html Msg
 modelView model =
-    Html.a [ Attr.href model.href ]
+    Html.a [ Attr.href <| model.href ++ "&color=" ++ (ZipList.current model.colors |> .code) ]
         [ cardImage model.language model.show (ZipList.current model.colors)
         , Html.aside [ Attr.class "bestseller" ] [ Html.text model.language.bestseller ]
             |> when model.bestseller

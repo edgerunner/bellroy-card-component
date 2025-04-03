@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Transit Workpack 20L",
+    "href": "//bellroy.com/products/transit-workpack-20l",
+    "price": { "prefix": "$", "amount": "179" },
+    "description": "20L, 16\" laptop / A versatile backpack for work",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-STO-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-STO-215/0?auto=format&fit=max&w=320",
+        "name": "Stone",
+        "code": "stone"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-BLK-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-BLK-215/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-NSK-213/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-NSK-213/0?auto=format&fit=max&w=320",
+        "name": "Nightsky",
+        "code": "nightsky"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-OLI-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-OLI-215/0?auto=format&fit=max&w=320",
+        "name": "Olive",
+        "code": "olive"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-BRZ-213/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-BRZ-213/0?auto=format&fit=max&w=320",
+        "name": "Bronze",
+        "code": "bronze"
+      }
+    ]
+  },
+  {
+    "name": "Venture Ready Sling 2.5L",
+    "href": "//bellroy.com/products/venture-ready-sling-2-5l",
+    "price": { "prefix": "$", "amount": "89" },
+    "description": "2.5L / A rugged little sling for daily adventure",
+    "bestseller": true,
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BIVA-BRZ-213/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BIVA-BRZ-213/0?auto=format&fit=max&w=320",
+        "name": "Bronze",
+        "code": "bronze"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BIVA-BLK-228/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BIVA-BLK-228/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BIVA-NSK-218/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BIVA-NSK-218/0?auto=format&fit=max&w=320",
+        "name": "Nightsky",
+        "code": "nightsky"
+      }
+    ]
+  },
+  {
+    "name": "Lite Travel Pack 30L",
+    "href": "//bellroy.com/products/lite-travel-pack-30l",
+    "price": { "prefix": "$", "amount": "199" },
+    "description": "30L / Compact and optimized for carry-on",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLPA-CLY-241/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLPA-CLY-241/0?auto=format&fit=max&w=320",
+        "name": "Clay",
+        "code": "clay"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLPA-BLK-241/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLPA-BLK-241/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLPA-ASH-241/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLPA-ASH-241/0?auto=format&fit=max&w=320",
+        "name": "Ash",
+        "code": "ash"
+      }
+    ]
+  },
+  {
+    "name": "Transit Workpack Pro 22L",
+    "href": "//bellroy.com/products/transit-workpack-pro-22l",
+    "price": { "prefix": "$", "amount": "239" },
+    "description": "22L, 16\" laptop / Work and travel essentials",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BPWA-STO-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BPWA-STO-215/0?auto=format&fit=max&w=320",
+        "name": "Stone",
+        "code": "stone"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BPWA-BLK-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BPWA-BLK-215/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BPWA-OLI-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BPWA-OLI-215/0?auto=format&fit=max&w=320",
+        "name": "Olive",
+        "code": "olive"
+      }
+    ]
+  },
+  {
+    "name": "Transit Workpack Pro 28L",
+    "href": "//bellroy.com/products/transit-workpack-pro-28l",
+    "price": { "prefix": "$", "amount": "259" },
+    "description": "28L, 16\" laptop / Work and travel essentials",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BPWB-BLK-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BPWB-BLK-215/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BPWB-OLI-215/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BPWB-OLI-215/0?auto=format&fit=max&w=320",
+        "name": "Olive",
+        "code": "olive"
+      }
+    ]
+  },
+  {
+    "name": "Cinch Messenger",
+    "href": "//bellroy.com/products/cinch-messenger",
+    "price": { "prefix": "$", "amount": "99" },
+    "description": "12L / An adaptable side bag for everyday carry",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMB-OAT-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMB-OAT-243/0?auto=format&fit=max&w=320",
+        "name": "Oat",
+        "code": "oat"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMB-BKR-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMB-BKR-243/0?auto=format&fit=max&w=320",
+        "name": "Charcoal",
+        "code": "charcoal"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMB-DNB-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMB-DNB-243/0?auto=format&fit=max&w=320",
+        "name": "Denim Blue",
+        "code": "denim-blue"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMB-SDN-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMB-SDN-243/0?auto=format&fit=max&w=320",
+        "name": "Sand Dune",
+        "code": "sand-dune"
+      }
+    ]
+  },
+  {
+    "name": "Venture Sling 6L",
+    "href": "//bellroy.com/products/venture-sling-6l",
+    "price": { "prefix": "$", "amount": "129" },
+    "description": "6L / An organized sling that's ready for adventure",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BMVA-BLK-228/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BMVA-BLK-228/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BMVA-BRZ-213/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BMVA-BRZ-213/0?auto=format&fit=max&w=320",
+        "name": "Bronze",
+        "code": "bronze"
+      }
+    ]
+  },
+  {
+    "name": "Lite Belt Bag",
+    "href": "//bellroy.com/products/lite-belt-bag",
+    "price": { "prefix": "$", "amount": "49" },
+    "description": "1.8L / A lightweight, versatile bumbag",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLHA-CLY-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLHA-CLY-234/0?auto=format&fit=max&w=320",
+        "name": "Clay",
+        "code": "clay"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLHA-BLK-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLHA-BLK-234/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLHA-ARG-233/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLHA-ARG-233/0?auto=format&fit=max&w=320",
+        "name": "Arcade Gray",
+        "code": "arcade-gray"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLHA-ASH-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLHA-ASH-234/0?auto=format&fit=max&w=320",
+        "name": "Ash",
+        "code": "ash"
+      }
+    ]
+  },
+  {
+    "name": "Lite Travel Pack 38L",
+    "href": "//bellroy.com/products/lite-travel-pack-38l",
+    "price": { "prefix": "$", "amount": "229" },
+    "description": "38L / Large format optimized for carry-on",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLPB-BLK-241/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLPB-BLK-241/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      }
+    ]
+  },
+  {
+    "name": "Venture Travel Pack 26L",
+    "href": "//bellroy.com/products/venture-travel-pack-26l",
+    "price": { "prefix": "$", "amount": "329" },
+    "description": "26L, 16\" laptop / A travel-optimized all-rounder",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BVTA-JBK-235/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BVTA-JBK-235/0?auto=format&fit=max&w=320",
+        "name": "Jet Black",
+        "code": "jet-black"
+      }
+    ]
+  },
+  {
+    "name": "Cinch Mini Messenger",
+    "href": "//bellroy.com/products/cinch-mini-messenger",
+    "price": { "prefix": "$", "amount": "79" },
+    "description": "6L / An adaptable side bag for everyday carry",
+    "bestseller": true,
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMA-OAT-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMA-OAT-243/0?auto=format&fit=max&w=320",
+        "name": "Oat",
+        "code": "oat"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMA-BKR-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMA-BKR-243/0?auto=format&fit=max&w=320",
+        "name": "Charcoal",
+        "code": "charcoal"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMA-DNB-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMA-DNB-243/0?auto=format&fit=max&w=320",
+        "name": "Denim Blue",
+        "code": "denim-blue"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BHMA-SDN-243/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BHMA-SDN-243/0?auto=format&fit=max&w=320",
+        "name": "Sand Dune",
+        "code": "sand-dune"
+      }
+    ]
+  },
+  {
+    "name": "Lite Sling",
+    "href": "//bellroy.com/products/lite-sling",
+    "price": { "prefix": "$", "amount": "89" },
+    "description": "7L / A flexible, lightweight sling for hands-free excursions",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLLA-CLY-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLLA-CLY-234/0?auto=format&fit=max&w=320",
+        "name": "Clay",
+        "code": "clay"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLLA-BLK-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLLA-BLK-234/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLLA-ARG-233/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLLA-ARG-233/0?auto=format&fit=max&w=320",
+        "name": "Arcade Gray",
+        "code": "arcade-gray"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLLA-ASH-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLLA-ASH-234/0?auto=format&fit=max&w=320",
+        "name": "Ash",
+        "code": "ash"
+      }
+    ]
+  },
+  {
+    "name": "Tokyo Wonder Tote 15L",
+    "href": "//bellroy.com/products/tokyo-wonder-tote-15l",
+    "price": { "prefix": "$", "amount": "169" },
+    "description": "15L, 16\" laptop / A clever work tote with big organization",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTAB-RVN-213/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTAB-RVN-213/0?auto=format&fit=max&w=320",
+        "name": "Raven",
+        "code": "raven"
+      }
+    ]
+  },
+  {
+    "name": "Lite Sling Mini",
+    "href": "//bellroy.com/products/lite-sling-mini",
+    "price": { "prefix": "$", "amount": "79" },
+    "description": "4L / A compact, lightweight sling for hands-free excursions",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLMA-CLY-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLMA-CLY-234/0?auto=format&fit=max&w=320",
+        "name": "Clay",
+        "code": "clay"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLMA-BLK-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLMA-BLK-234/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLMA-ARG-233/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLMA-ARG-233/0?auto=format&fit=max&w=320",
+        "name": "Arcade Gray",
+        "code": "arcade-gray"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BLMA-ASH-234/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BLMA-ASH-234/0?auto=format&fit=max&w=320",
+        "name": "Ash",
+        "code": "ash"
+      }
+    ]
+  },
+  {
+    "name": "Venture Sling 10L",
+    "href": "//bellroy.com/products/venture-sling-10l",
+    "price": { "prefix": "$", "amount": "179" },
+    "description": "10L / A versatile sling for photoshoots and every day",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BVCA-BLK-228/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BVCA-BLK-228/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      }
+    ]
+  },
+  {
+    "name": "Venture Ready Pack 20L",
+    "href": "//bellroy.com/products/venture-ready-pack-20l",
+    "price": { "prefix": "$", "amount": "249" },
+    "description": "20L, 16\" laptop / An adventure-ready all-rounder",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BVZB-BRZ-213/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BVZB-BRZ-213/0?auto=format&fit=max&w=320",
+        "name": "Bronze",
+        "code": "bronze"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BVZB-BLK-228/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BVZB-BLK-228/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      }
+    ]
+  },
+  {
+    "name": "Via Work Bag",
+    "href": "//bellroy.com/products/via-work-bag",
+    "price": { "prefix": "$", "amount": "129" },
+    "description": "14L, 16\" laptop / A streamlined modern commuter",
+    "colors": [
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTEA-EUC-230/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTEA-EUC-230/0?auto=format&fit=max&w=320",
+        "name": "Eucalyptus",
+        "code": "eucalyptus"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTEA-BLK-230/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTEA-BLK-230/0?auto=format&fit=max&w=320",
+        "name": "Black",
+        "code": "black"
+      },
+      {
+        "outsideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTEA-SLT-230/0?auto=format&fit=max&w=320",
+        "insideImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTEA-SLT-230/0?auto=format&fit=max&w=320",
+        "name": "Slate",
+        "code": "slate"
+      }
+    ]
+  }
+]

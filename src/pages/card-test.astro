@@ -1,35 +1,7 @@
 ---
 // @ts-ignore-line
 import Card from "../components/Card.astro";
-
-const props = {
-    name: "Transit Workpack 20L",
-    description: '20L, 16" laptop / A versatile backpack for work',
-    price: {
-        prefix: "$",
-        amount: "179",
-    },
-    colors: [
-        {
-            code: "bronze",
-            name: "Bronze",
-            outsideImage:
-                "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-BRZ-213/0?auto=format&fit=max&w=320",
-            insideImage:
-                "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-BRZ-213/0?auto=format&fit=max&w=320",
-        },
-        {
-            code: "nightsky",
-            name: "Night Sky",
-            outsideImage:
-                "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/USD/BTWB-NSK-213/0?auto=format&fit=max&w=320",
-            insideImage:
-                "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_explode_image/USD/BTWB-NSK-213/0?auto=format&fit=max&w=320",
-        },
-    ],
-    href: "/products/product-page.html",
-    bestseller: false,
-};
+import examples from "../examples.json";
 ---
 
 <html>
@@ -43,10 +15,7 @@ const props = {
     </head>
     <body>
         <main>
-            <Card {...props} />
-            <Card {...props} />
-            <Card {...props} />
-            <Card {...props} />
+            {examples.map((example) => <Card {...example} />)}
         </main>
     </body>
 </html>
